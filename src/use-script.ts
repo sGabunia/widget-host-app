@@ -11,6 +11,7 @@ export interface UseScriptOptions extends ComponentProps<'script'> {
   /** Whether to remove the script on unmount */
   removeOnUnmount?: boolean;
   "data-brand-id"?: string;
+  "data-host"?: string;
 }
 
 export const useScript = (src: string, options: UseScriptOptions = {}) => {
