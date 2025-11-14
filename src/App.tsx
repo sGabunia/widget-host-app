@@ -2,7 +2,7 @@ import { useScript } from "./use-script"
 
 function App() {
   const status = useScript("https://chat.nebi.live/v2/injector/", {
-    "data-brand-id": "10",
+    "data-brand-id": "42",
     "data-host": "live"
   })
   return (
